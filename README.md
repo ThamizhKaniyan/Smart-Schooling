@@ -9,3 +9,8 @@ Once installed, open a terminal and run the following command to clone the repos
 `git clone https://github.com/ThamizhKaniyan/Smart-Schooling.git`
 
 This will create a new directory named `Smart-Schooling`. To import the project into Android Studio, open Android Studio then hit `File` > `Open` then choose the new directory that was created.
+
+## Preview
+<div>
+<img src="https://github.com/ThamizhKaniyan/Smart-Schooling/ScreenShots/primary_screen.jpg" width="30%" height="30%" >
+</div>
