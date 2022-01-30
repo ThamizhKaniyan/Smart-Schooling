@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
+    tools:context=".activity_books">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/bk1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffff"
+                android:background="@drawable/bg_round"
+                android:text="ENGLISH" />
+
+            <Button
+                android:id="@+id/bk2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bk1"
+                android:textColor="#ffff"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_round"
+                android:text="TAMIL" />
+
+            <Button
+                android:id="@+id/bk3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bk2"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffff"
+                android:background="@drawable/bg_round"
+                android:text="MATHS" />
+
+            <Button
+                android:id="@+id/bk4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bk3"
+                android:textColor="#ffff"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_round"
+                android:text="SCIENCE" />
+
+            <Button
+                android:id="@+id/bk5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bk4"
+                android:textColor="#ffff"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_round"
+                android:text="SOCIAL SCIENCE" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

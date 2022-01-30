@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/bgimg"
+    tools:context=".speed_notes">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="@string/enter_text_here"
+        android:textAlignment="center"
+        android:lines="5"
+        android:background="@drawable/bg_round"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:importantForAutofill="no"
+        android:inputType="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_round"
+            android:layout_width="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/mic" />
+
+
+        <Button
+            android:id="@+id/bt_clear"
+            android:layout_width="wrap_content"
+            android:background="@drawable/bg_round"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ffff"
+            android:text="@string/clear" />
+
+    </LinearLayout>
+
+</LinearLayout>

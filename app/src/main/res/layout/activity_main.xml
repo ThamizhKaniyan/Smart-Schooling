@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_books"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:textColor="#ffff"
+                android:text="BOOKS"
+                android:background="@drawable/bg_round"/>
+
+            <Button
+                android:id="@+id/btn_notes"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btn_books"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_round"
+                android:textColor="#ffff"
+                android:text="Notes" />
+
+            <Button
+                android:id="@+id/btn_sn"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btn_notes"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Speech to Text"
+                android:textColor="#ffff"
+                android:background="@drawable/bg_round"/>
+
+            <Button
+                android:id="@+id/btn_er"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btn_sn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Text to Speech"
+                android:textColor="#ffff"
+                android:background="@drawable/bg_round"/>
+
+
+            <Button
+                android:id="@+id/btn_fr"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btn_er"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_round"
+                android:textColor="#ffff"
+                android:text="Formulas" />
+
+            <Button
+                android:id="@+id/btn_tbls"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btn_fr"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_round"
+                android:textColor="#ffff"
+                android:text="Tables" />
+
+            <Button
+                android:id="@+id/btn_exam"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btn_tbls"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_round"
+                android:textColor="#ffff"
+                android:text="Examination" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
+    tools:context=".standard_selection">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/s6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/btn_round"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="6th" />
+
+    <Button
+        android:id="@+id/s7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/btn_round"
+        android:layout_below="@+id/s6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffff"
+        android:text="7th" />
+
+    <Button
+        android:id="@+id/s8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/btn_round"
+        android:textColor="#ffff"
+        android:layout_below="@+id/s7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="8th" />
+
+    <Button
+        android:id="@+id/s9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/btn_round"
+        android:layout_below="@+id/s8"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff"
+        android:layout_marginBottom="20dp"
+        android:text="9th" />
+
+    <Button
+        android:id="@+id/s10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/btn_round"
+        android:layout_below="@id/s9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffff"
+        android:text="10th" />
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

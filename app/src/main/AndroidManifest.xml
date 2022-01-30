@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paint">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".welcome_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".standard_selection"></activity>
+        <activity android:name=".exampaper" />
+        <activity android:name=".examlogin" />
+        <activity android:name=".activity_tables" />
+        <activity android:name=".activity_formula" />
+        <activity android:name=".activity_timetable" />
+        <activity android:name=".easy_reader" />
+        <activity android:name=".speed_notes" />
+        <activity android:name=".social_book" />
+        <activity android:name=".science_book" />
+        <activity android:name=".maths_book" />
+        <activity android:name=".tamil_book" />
+        <activity android:name=".english_book" />
+        <activity android:name=".activity_books" />
+        <activity android:name=".activity_notes" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

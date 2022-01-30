@@ -1,0 +1,36 @@
+package com.example.paint;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.github.barteksc.pdfviewer.PDFView;
+
+public class social_book extends AppCompatActivity {
+    PDFView pdfView;
+    String a;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_social_book);
+        a = standard_selection.getValue().toString();
+        pdfView = findViewById(R.id.pdfView);
+
+
+        switch (a){
+            case "6":
+                pdfView.fromAsset("social6.pdf").load();
+                break;
+            case "7":
+                pdfView.fromAsset("social7.pdf").load();
+                break;
+            case "8":
+                pdfView.fromAsset("social8.pdf").load();
+                break;
+            case "9":
+                pdfView.fromAsset("social9.pdf").load();
+                break;
+            default:
+                pdfView.fromAsset("social10.pdf").load();
+        }
+    }
+}
