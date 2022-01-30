@@ -12,6 +12,6 @@ This will create a new directory named `Smart-Schooling`. To import the project 
 
 ## Preview
 <div>
-<img src="https://raw.githubusercontent.com/ThamizhKaniyan/Smart-Schooling/main/ScreenShots/primary_screen.jpg" width="50%" height="50%" >
-  <img src="https://raw.githubusercontent.com/ThamizhKaniyan/Smart-Schooling/main/ScreenShots/splash_screen.jpg" width="50%" height="50%" >
+<img src="https://raw.githubusercontent.com/ThamizhKaniyan/Smart-Schooling/main/ScreenShots/primary_screen.jpg" width="40%" height="40%" >
+  <img src="https://raw.githubusercontent.com/ThamizhKaniyan/Smart-Schooling/main/ScreenShots/splash_screen.jpg" width="40%" height="40%" >
 </div>
