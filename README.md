@@ -1,6 +1,10 @@
 # Smart-Schooling
 An android application to make students life easier by reducing their backpack weight.
 
+### Dont forget to :star: the repo
+
+[![GitHub stars](https://img.shields.io/github/stars/Sangwan5688/BlackHole.svg?style=social&label=Star)](https://github.com//Sangwan5688/BlackHole) ![GitHub forks](https://img.shields.io/github/forks/Sangwan5688/BlackHole.svg?style=social&label=Forks) ![GitHub followers](https://img.shields.io/github/followers/Sangwan5688.svg?style=social&label=Follow)
+
 # Overview
 Almost everything getting upgraded in this modern world but still school students carry a big backpack which contains lots of books and notes to their school everyday, because of that they are facing many health issues.
 
