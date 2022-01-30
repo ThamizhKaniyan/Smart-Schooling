@@ -32,3 +32,6 @@ This will create a new directory named `Smart-Schooling`. To import the project 
   &nbsp
   <img src="https://raw.githubusercontent.com/ThamizhKaniyan/Smart-Schooling/main/ScreenShots/primary_screen.jpg" width="40%" height="40%" >
 </div>
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
